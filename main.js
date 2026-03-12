@@ -2149,9 +2149,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
     xmlns: "http://www.w3.org/2000/svg",
     viewBox: "0 0 105 100"
   }, /*#__PURE__*/_react["default"].createElement("path", {
-    d: "M91.84,35a.09.09,0,0,1-.1-.07,41,41,0,0,0-79.48,0,.09.09,0,0,1-.1.07C9.45,35,1,35.35,1,42.53c0,8.56,1,16,6,20.32,2.16,1.85,5.81,2.3,9.27,2.22a44.4,44.4,0,0,0,6.45-.68.09.09,0,0,0,.06-.15A34.81,34.81,0,0,1,17,45c0-.1,0-.21,0-.31a35,35,0,0,1,70,0c0,.1,0,.21,0,.31a34.81,34.81,0,0,1-5.78,19.24.09.09,0,0,0,.06.15,44.4,44.4,0,0,0,6.45.68c3.46.08,7.11-.37,9.27-2.22,5-4.27,6-11.76,6-20.32C103,35.35,94.55,35,91.84,35Z"
+    d: "M52.5,0 L100,45 L52.5,70 L5,45 Z"
   }), /*#__PURE__*/_react["default"].createElement("path", {
-    d: "M52,74,25.4,65.13a.1.1,0,0,0-.1.17L51.93,91.93a.1.1,0,0,0,.14,0L78.7,65.3a.1.1,0,0,0-.1-.17L52,74A.06.06,0,0,1,52,74Z"
+    d: "M52.5,75 L95,50 L52.5,100 L10,50 Z"
   })), /*#__PURE__*/_react["default"].createElement("div", {
     className: "info-secondary splash"
   }, "Solidity EVM Compiler", /*#__PURE__*/_react["default"].createElement("br", null), /*#__PURE__*/_react["default"].createElement("span", {
