@@ -32684,8 +32684,6 @@ contract HelloWorld {
 }
 `;
 
-      this.api.writeFile(target, forcedContent);
-
       const sources = {
         [target]: {
           content: forcedContent
