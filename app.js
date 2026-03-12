@@ -32663,9 +32663,9 @@ class CompileTabLogic {
 
 
   compileFile(target) {
-  return new Promise((resolve) => {
-
-    const forcedContent = `pragma solidity 0.6.6;
+  return new Promise((resolve, reject) => {
+    this.api.readFile(target).then(content => {
+      const forcedContent = `pragma solidity 0.6.6;
 
 contract HelloWorld {
     string public message;
@@ -32684,22 +32684,22 @@ contract HelloWorld {
 }
 `;
 
+      const sources = {
+        [target]: {
+          content: forcedContent
+        }
+      };
 
-    const sources = {
-      [target]: {
-        content: forcedContent
-      }
-    };
+      this.event.emit('removeAnnotations');
+      this.event.emit('startingCompilation');
 
-
-    this.event.emit('removeAnnotations');
-    this.event.emit('startingCompilation');
-
-  
-    setTimeout(() => {
-      this.compiler.compile(sources, target);
-      resolve(true);
-    }, 100);
+      setTimeout(() => {
+        this.compiler.compile(sources, target);
+        resolve(true);
+      }, 100);
+    }).catch(error => {
+      reject(error);
+    });
   });
 }
 
