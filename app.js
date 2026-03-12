@@ -14930,19 +14930,19 @@ var WalkthroughService = /*#__PURE__*/function (_Plugin) {
       if (!localStorage.getItem('hadTour_initial')) {
         introJs().setOptions({
           steps: [{
-            title: 'Welcome to Solidity EVM Compiler',
+            title: 'Welcome to EVM Compiler',
             intro: 'Smart-Contract EVM Deployer for ERC-20 Developers',
             element: document.querySelector('#verticalIconsHomeIcon'),
             tooltipClass: 'bg-light text-dark',
             position: 'right'
           }, {
             element: document.querySelector('#verticalIconsKindsolidity'),
-            title: 'Solidity Compiler',
-            intro: 'Having selected a .sol file in the File Explorers (the icon above), compile it with the Solidity Compiler.',
+            title: 'Solidity Language',
+            intro: 'Having selected a .sol file in the File Explorers , compile it with the Solidity Compiler.',
             tooltipClass: 'bg-light text-dark',
             position: 'right'
           }, {
-            title: 'Deploy your contract',
+            title: 'Smart Contracts',
             element: document.querySelector('#verticalIconsKindudapp'),
             intro: 'Choose a chain, deploy a contract and play with your functions.',
             tooltipClass: 'bg-light text-dark',
