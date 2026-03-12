@@ -13768,7 +13768,7 @@ const RemixUiHomeTab = props => {
                 height: 'auto',
                 alignSelf: 'flex-end'
               },
-              children: "Remix IDE"
+              children: "Solidity EVM Compiler"
             })
           }), /*#__PURE__*/(0, _jsxRuntime.jsxs)("div", {
             className: "mr-4 d-flex",
