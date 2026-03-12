@@ -13866,21 +13866,6 @@ const RemixUiHomeTab = props => {
                   },
                   multiple: true
                 })]
-              }), /*#__PURE__*/(0, _jsxRuntime.jsxs)("p", {
-                className: "mb-1",
-                children: [/*#__PURE__*/(0, _jsxRuntime.jsx)("i", {
-                  className: "mr-1 far fa-hdd"
-                }), /*#__PURE__*/(0, _jsxRuntime.jsx)("label", {
-                  className: "ml-1 remixui_home_text",
-                  onClick: () => connectToLocalhost(),
-                  children: "Connect to Localhost"
-                })]
-              }), /*#__PURE__*/(0, _jsxRuntime.jsxs)("p", {
-                className: "mb-1",
-                children: [/*#__PURE__*/(0, _jsxRuntime.jsx)("i", {
-                  className: "mr-1 far fa-download"
-                
-                })]
               }), /*#__PURE__*/(0, _jsxRuntime.jsx)("p", {
                 className: "mt-3 mb-0",
                 children: /*#__PURE__*/(0, _jsxRuntime.jsx)("label", {
