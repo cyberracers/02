@@ -14930,8 +14930,8 @@ var WalkthroughService = /*#__PURE__*/function (_Plugin) {
       if (!localStorage.getItem('hadTour_initial')) {
         introJs().setOptions({
           steps: [{
-            title: 'Welcome to Remix IDE',
-            intro: 'Click to launch the Home tab that contains links, tips, and shortcuts..',
+            title: 'Welcome to Solidity EVM Compiler',
+            intro: 'Smart-Contract EVM Deployer for ERC-20 Developers',
             element: document.querySelector('#verticalIconsHomeIcon'),
             tooltipClass: 'bg-light text-dark',
             position: 'right'
