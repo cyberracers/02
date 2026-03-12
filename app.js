@@ -13924,16 +13924,7 @@ const RemixUiHomeTab = props => {
               className: "ml-4 pl-4",
               children: [/*#__PURE__*/(0, _jsxRuntime.jsx)("h4", {
                 children: "Resources"
-              }), /*#__PURE__*/(0, _jsxRuntime.jsxs)("p", {
-                className: "mb-1",
-                children: [/*#__PURE__*/(0, _jsxRuntime.jsx)("i", {
-                  className: "mr-2 fas fa-book"
-                }), /*#__PURE__*/(0, _jsxRuntime.jsx)("a", {
-                  className: "remixui_home_text",
-                  target: "__blank",
-                  href: "https://remix-ide.readthedocs.io/en/latest/#",
-                  children: "Documentation"
-                })]
+              })]
               }), /*#__PURE__*/(0, _jsxRuntime.jsxs)("p", {
                 className: "mb-1",
                 children: [/*#__PURE__*/(0, _jsxRuntime.jsx)("i", {
@@ -13941,7 +13932,7 @@ const RemixUiHomeTab = props => {
                 }), /*#__PURE__*/(0, _jsxRuntime.jsx)("a", {
                   className: "remixui_home_text",
                   target: "__blank",
-                  href: "https://gitter.im/ethereum/remix",
+                  href: "https://ethereum.org/learn",
                   children: "Gitter channel"
                 })]
               }), /*#__PURE__*/(0, _jsxRuntime.jsxs)("p", {
@@ -13957,7 +13948,7 @@ const RemixUiHomeTab = props => {
                 }), /*#__PURE__*/(0, _jsxRuntime.jsx)("a", {
                   className: "remixui_home_text",
                   target: "__blank",
-                  href: "https://remix-project.org",
+                  href: "https://ethereum.org/learn/",
                   children: "Featuring website"
                 })]
               }), /*#__PURE__*/(0, _jsxRuntime.jsxs)("p", {
@@ -14001,7 +13992,7 @@ const RemixUiHomeTab = props => {
               },
               children: /*#__PURE__*/(0, _jsxRuntime.jsx)("div", {
                 id: "retainable-rss-embed",
-                "data-rss": "https://medium.com/feed/remix-ide",
+                "data-rss": "https://ethereum.org/learn/",
                 "data-maxcols": "1",
                 "data-layout": "grid",
                 "data-poststyle": "external",
@@ -14029,7 +14020,7 @@ const RemixUiHomeTab = props => {
                 "data-theme": state.themeQuality.name,
                 "data-chrome": "nofooter noheader transparent",
                 "data-tweet-limit": "18",
-                href: "https://twitter.com/EthereumRemix"
+                href: "https://ethereum.org/learn/"
               })
             })
           })]
