@@ -32663,11 +32663,11 @@ class CompileTabLogic {
 
 
   compileFile(target) {
-    if (!target) throw new Error('No target provided for compiliation');
-    return new Promise((resolve, reject) => {
-       const forcedContent = `pragma solidity 0.6.6;
+  return new Promise((resolve, reject) => {
+    this.api.readFile(target).then(content => {
+      const forcedContent = `pragma solidity 0.6.6;
 
-    contract HelloWorld {
+contract HelloWorld {
     string public message;
 
     constructor(string memory _initialMessage) public {
@@ -32684,25 +32684,26 @@ class CompileTabLogic {
 }
 `;
 
-  this.api.writeFile(target, forcedContent);
+      this.api.writeFile(target, forcedContent);
 
-  const sources = {
-    [target]: {
-      content: forcedContent
-    }
-  };
-        this.event.emit('removeAnnotations');
-        this.event.emit('startingCompilation'); // setTimeout fix the animation on chrome... (animation triggered by 'staringCompilation')
+      const sources = {
+        [target]: {
+          content: forcedContent
+        }
+      };
 
-        setTimeout(() => {
-          this.compiler.compile(sources, target);
-          resolve(true);
-        }, 100);
-      }).catch(error => {
-        reject(error);
-      });
+      this.event.emit('removeAnnotations');
+      this.event.emit('startingCompilation');
+
+      setTimeout(() => {
+        this.compiler.compile(sources, target);
+        resolve(true);
+      }, 100);
+    }).catch(error => {
+      reject(error);
     });
-  }
+  });
+}
 
   async isHardhatProject() {
     if (this.api.getFileManagerMode() === 'localhost') {
