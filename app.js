@@ -13793,7 +13793,7 @@ const RemixUiHomeTab = props => {
           children: [/*#__PURE__*/(0, _jsxRuntime.jsxs)("div", {
             className: "mb-5",
             children: [/*#__PURE__*/(0, _jsxRuntime.jsx)("h4", {
-              children: "Featured Plugins"
+              children: ""
             }), /*#__PURE__*/(0, _jsxRuntime.jsx)("div", {
               className: "d-flex flex-row pt-2",
               children: /*#__PURE__*/(0, _jsxRuntime.jsxs)(_themeContext.ThemeContext.Provider, {
@@ -13824,11 +13824,7 @@ const RemixUiHomeTab = props => {
                   envID: "sourcifyLogo",
                   envText: "Sourcify",
                   callback: () => startSourceVerify()
-                }), /*#__PURE__*/(0, _jsxRuntime.jsx)(_pluginButton.default, {
-                  imgPath: "assets/img/moreLogo.webp",
-                  envID: "moreLogo",
-                  envText: "More",
-                  callback: startPluginManager
+              
                 })]
               })
             })]
