@@ -13941,8 +13941,8 @@ const RemixUiHomeTab = props => {
                 }), /*#__PURE__*/(0, _jsxRuntime.jsx)("a", {
                   className: "remixui_home_text",
                   target: "__blank",
-                  href: "https://gitter.im/ethereum/remix",
-                  children: "Gitter channel"
+                  href: "https://ethereum.org/developers/tools/",
+                  children: "Builder tools"
                 })]
               }), /*#__PURE__*/(0, _jsxRuntime.jsxs)("p", {
                 className: "mb-1",
@@ -13957,18 +13957,10 @@ const RemixUiHomeTab = props => {
                 }), /*#__PURE__*/(0, _jsxRuntime.jsx)("a", {
                   className: "remixui_home_text",
                   target: "__blank",
-                  href: "https://remix-project.org",
-                  children: "Featuring website"
+                  href: "https://ethereum.org/layer-2/learn/",
+                  children: "Ethereum layer2"
                 })]
-              }), /*#__PURE__*/(0, _jsxRuntime.jsxs)("p", {
-                className: "mb-1",
-                children: [/*#__PURE__*/(0, _jsxRuntime.jsx)("i", {
-                  className: "mr-2 fab fa-ethereum remixui_home_image"
-                }), /*#__PURE__*/(0, _jsxRuntime.jsx)("label", {
-                  className: "remixui_home_text",
-                  onClick: () => switchToPreviousVersion(),
-                  children: "Old experience"
-                })]
+              
               })]
             })]
           })]
