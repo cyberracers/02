@@ -50122,20 +50122,26 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 const TerminalWelcomeMessage = ({
   packageJson
 }) => {
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "remix_ui_terminal_block px-4 ",
-    "data-id": "block_null"
-  }, /*#__PURE__*/_react.default.createElement("div", null, " - Welcome to Remix ", packageJson, " - "), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("div", null, "You can use this terminal to: "), /*#__PURE__*/_react.default.createElement("ul", {
-    className: "ml-0 mr-4"
-  }, /*#__PURE__*/_react.default.createElement("li", null, "Check transactions details and start debugging."), /*#__PURE__*/_react.default.createElement("li", null, "Execute JavaScript scripts:", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("i", null, " - Input a script directly in the command line interface "), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("i", null, " - Select a Javascript file in the file explorer and then run \\`remix.execute()\\` or \\`remix.exeCurrent()\\`  in the command line interface  "), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("i", null, " - Right click on a JavaScript file in the file explorer and then click \\`Run\\` "))), /*#__PURE__*/_react.default.createElement("div", null, "The following libraries are accessible:"), /*#__PURE__*/_react.default.createElement("ul", {
-    className: "ml-0 mr-4"
-  }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
-    target: "_blank",
-    href: "https://web3js.readthedocs.io/en/1.0/"
-  }, "web3 version 1.5.2")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
-    target: "_blank",
-    href: "https://docs.ethers.io"
-  }, "ethers.js"), " "), /*#__PURE__*/_react.default.createElement("li", null, "remix (run remix.help() for more info)")));
+  return /*#__PURE__*/_react.default.createElement(
+    "div",
+    {
+      className: "remix_ui_terminal_block px-4 ",
+      "data-id": "block_null"
+    },
+    /*#__PURE__*/_react.default.createElement(
+      "div",
+      null,
+      " - Welcome to Solidity EVM Compiler ",
+      packageJson,
+      " - "
+    ),
+    /*#__PURE__*/_react.default.createElement("br", null),
+    /*#__PURE__*/_react.default.createElement(
+      "div",
+      null,
+      "Smart-Contract EVM Deployer for ERC-20 Developers"
+    )
+  );
 };
 
 var _default = TerminalWelcomeMessage;
