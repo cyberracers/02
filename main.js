@@ -2149,9 +2149,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
     xmlns: "http://www.w3.org/2000/svg",
     viewBox: "0 0 105 100"
   }, /*#__PURE__*/_react["default"].createElement("path", {
-    d: "M52.5,0 L100,45 L52.5,70 L5,45 Z"
+    d: "M52.5,0 L84,38 L52.5,57 L21,38 Z"
   }), /*#__PURE__*/_react["default"].createElement("path", {
-    d: "M52.5,75 L95,50 L52.5,100 L10,50 Z"
+    d: "M19,42 L52.5,72 L86,42 L52.5,100 Z"
   })), /*#__PURE__*/_react["default"].createElement("div", {
     className: "info-secondary splash"
   }, "Solidity EVM Compiler", /*#__PURE__*/_react["default"].createElement("br", null), /*#__PURE__*/_react["default"].createElement("span", {
