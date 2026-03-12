@@ -13978,33 +13978,7 @@ const RemixUiHomeTab = props => {
         children: [/*#__PURE__*/(0, _jsxRuntime.jsxs)("div", {
           className: "d-flex pr-3 py-2 align-self-end",
           id: "remixIDEMediaPanelsTitle",
-          children: [/*#__PURE__*/(0, _jsxRuntime.jsx)("button", {
-            className: "btn-info p-2 m-1 border rounded-circle remixui_home_mediaBadge fab fa-twitter",
-            id: "remixIDEHomeTwitterbtn",
-            title: "Twitter",
-            onClick: e => {
-              setState(prevState => {
-                return _objectSpread(_objectSpread({}, prevState), {}, {
-                  showMediaPanel: state.showMediaPanel === 'twitter' ? 'none' : 'twitter'
-                });
-              });
-
-              _paq.push(['trackEvent', 'pluginManager', 'media', 'twitter']);
-            }
-          }), /*#__PURE__*/(0, _jsxRuntime.jsx)("button", {
-            className: "btn-danger p-2 m-1 border rounded-circle remixui_home_mediaBadge fab fa-medium",
-            id: "remixIDEHomeMediumbtn",
-            title: "Medium blogs",
-            onClick: e => {
-              setState(prevState => {
-                return _objectSpread(_objectSpread({}, prevState), {}, {
-                  showMediaPanel: state.showMediaPanel === 'medium' ? 'none' : 'medium'
-                });
-              });
-
-              _paq.push(['trackEvent', 'pluginManager', 'media', 'medium']);
-            }
-          })]
+          children: []
         }), /*#__PURE__*/(0, _jsxRuntime.jsxs)("div", {
           className: "mr-3 d-flex bg-light remixui_home_panels",
           style: {
