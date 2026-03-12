@@ -12818,6 +12818,10 @@ const Icon = ({
       verticalIconPlugin.off(name, 'statusChanged');
     };
   }, []);
+  if (name === 'pluginManager' || name === 'settings') {
+  return null;
+}
+
   return /*#__PURE__*/(0, _jsxRuntime.jsxs)(_jsxRuntime.Fragment, {
     children: [/*#__PURE__*/(0, _jsxRuntime.jsxs)("div", {
       className: `remixui_icon m-2  pt-1`,
