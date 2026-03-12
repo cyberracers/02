@@ -3128,7 +3128,7 @@ var profile = {
   description: 'execute and save transactions',
   kind: 'udapp',
   location: 'sidePanel',
-  documentation: 'https://remix-ide.readthedocs.io/en/latest/run.html',
+  documentation: 'https://github.com/argotorg/solidity/tree/develop/docs',
   version: packageJson.version,
   permission: true,
   events: ['newTransaction'],
@@ -7374,7 +7374,7 @@ function Web3ProviderDialog(props) {
   }, "Geth Docs on Dev mode"), ")", /*#__PURE__*/_react.default.createElement("div", {
     className: "border p-1"
   }, "geth --http --http.corsdomain=\"", window.origin, "\" --http.api web3,eth,debug,personal,net --vmdebug --datadir ", thePath, " --dev console"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("b", null, "WARNING:"), " It is not safe to use the --http.corsdomain flag with a wildcard: ", /*#__PURE__*/_react.default.createElement("b", null, "--http.corsdomain *"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "For more info: ", /*#__PURE__*/_react.default.createElement("a", {
-    href: "https://remix-ide.readthedocs.io/en/latest/run.html#more-about-web3-provider",
+    href: "https://github.com/argotorg/solidity/tree/develop/docs",
     target: "_blank",
     rel: "noreferrer"
   }, "Remix Docs on Web3 Provider"), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Web3 Provider Endpoint"), /*#__PURE__*/_react.default.createElement("input", {
@@ -7606,7 +7606,7 @@ function EnvironmentUI(props) {
           children: [" ", provider.content]
         }, index))
       }), /*#__PURE__*/(0, _jsxRuntime.jsx)("a", {
-        href: "https://remix-ide.readthedocs.io/en/latest/run.html#run-setup",
+        href: "https://github.com/argotorg/solidity/tree/develop/docs",
         target: "_blank",
         rel: "noreferrer",
         children: /*#__PURE__*/(0, _jsxRuntime.jsx)("i", {
@@ -30333,7 +30333,7 @@ var profile = {
   kind: 'compiler',
   permission: true,
   location: 'sidePanel',
-  documentation: 'https://remix-ide.readthedocs.io/en/latest/solidity_editor.html',
+  documentation: 'https://github.com/argotorg/solidity/tree/develop/docs',
   version: packageJson.version,
   methods: ['getCompilationResult', 'compile', 'compileWithParameters', 'setCompilerConfig', 'compileFile', 'getCompilerState']
 }; // EditorApi:
