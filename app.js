@@ -8102,14 +8102,7 @@ const runTabInitialState = {
       dataId: 'settingsInjectedMode',
       title: 'Execution environment has been provided by Metamask or similar provider.',
       value: 'injected',
-      content: 'Injected Web3'
-    }, {
-      id: 'web3-mode',
-      dataId: 'settingsWeb3Mode',
-      title: `Execution environment connects to node at localhost (or via IPC if available), transactions will be sent to the network and can cause loss of money or worse!
-      If this page is served via https and you access your node via http, it might not work. In this case, try cloning the repository and serving it via http.`,
-      value: 'web3',
-      content: 'Web3 Provider'
+      content: 'Connect Wallet'
     }],
     isRequesting: false,
     isSuccessful: false,
@@ -43476,7 +43469,7 @@ const publishToGist = async (path, type) => {
     if (!accessToken) {
       dispatch((0, _payload.displayNotification)('Authorize Token', 'Remix requires an access token (which includes gists creation permission). Please go to the settings tab to create one.', 'Close', null, () => {}));
     } else {
-      const description = 'Created using remix-ide: Realtime Ethereum Contract Compiler and Runtime. \n Load this file by pasting this gists URL or ID at https://remix.ethereum.org/#version=' + queryParams.get().version + '&optimize=' + queryParams.get().optimize + '&runs=' + queryParams.get().runs + '&gist=';
+      const description = 'Created using remix-ide: Realtime Ethereum Contract Compiler and Runtime. \n Load this file by pasting this gists URL or ID at https://ethereum.org/#version=' + queryParams.get().version + '&optimize=' + queryParams.get().optimize + '&runs=' + queryParams.get().runs + '&gist=';
       const gists = new _gists.default({
         token: accessToken
       });
