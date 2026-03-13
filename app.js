@@ -29049,7 +29049,7 @@ var profile = {
   description: 'Start/stop services, modules and plugins',
   kind: 'settings',
   location: 'sidePanel',
-  documentation: 'https://remix-ide.readthedocs.io/en/latest/plugin_manager.html',
+  documentation: 'https://github.com/topics/solidity',
   version: packageJson.version
 };
 
@@ -31684,7 +31684,7 @@ const CompilerContainer = props => {
             children: "Enable Hardhat Compilation"
           }), /*#__PURE__*/(0, _jsxRuntime.jsx)("a", {
             className: "mt-1 text-nowrap",
-            href: "https://remix-ide.readthedocs.io/en/latest/hardhat.html#enable-hardhat-compilation",
+            href: "https://github.com/topics/solidity",
             target: '_blank',
             children: /*#__PURE__*/(0, _jsxRuntime.jsx)(_reactBootstrap.OverlayTrigger, {
               placement: 'right',
@@ -33258,7 +33258,7 @@ var profile = {
   description: 'Remix-IDE settings',
   kind: 'settings',
   location: 'sidePanel',
-  documentation: 'https://remix-ide.readthedocs.io/en/latest/settings.html',
+  documentation: 'https://github.com/topics/solidity',
   version: packageJson.version,
   permission: true
 };
@@ -34108,7 +34108,7 @@ var profile = {
   description: 'Checks the contract code for security vulnerabilities and bad practices.',
   kind: 'analysis',
   location: 'sidePanel',
-  documentation: 'https://remix-ide.readthedocs.io/en/latest/static_analysis.html',
+  documentation: 'https://github.com/topics/solidity',
   version: packageJson.version
 };
 
@@ -34765,7 +34765,7 @@ const RemixUiStaticAnalyser = props => {
           onChange: () => {}
         }), /*#__PURE__*/(0, _jsxRuntime.jsx)("a", {
           className: "mt-1 text-nowrap",
-          href: "https://remix-ide.readthedocs.io/en/latest/slither.html#enable-slither-analysis",
+          href: "https://github.com/topics/solidity",
           target: '_blank',
           children: /*#__PURE__*/(0, _jsxRuntime.jsx)(_reactBootstrap.OverlayTrigger, {
             placement: 'right',
@@ -36913,7 +36913,7 @@ var profile = {
   description: 'Debug transactions',
   kind: 'debugging',
   location: 'sidePanel',
-  documentation: 'https://remix-ide.readthedocs.io/en/latest/debugger.html',
+  documentation: 'https://github.com/topics/solidity',
   version: packageJson.version
 };
 
@@ -39877,7 +39877,7 @@ var profile = {
   icon: 'assets/img/unitTesting.webp',
   description: 'Fast tool to generate unit tests for your contracts',
   location: 'sidePanel',
-  documentation: 'https://remix-ide.readthedocs.io/en/latest/unittesting.html'
+  documentation: 'https://github.com/topics/solidity'
 };
 
 module.exports = /*#__PURE__*/function (_ViewPlugin) {
@@ -41055,7 +41055,7 @@ const SolidityUnitTesting = props => {
           className: "btn border text-decoration-none pr-0 d-flex w-50 ml-2",
           title: "Check out documentation.",
           target: "__blank",
-          href: "https://remix-ide.readthedocs.io/en/latest/unittesting.html#test-directory",
+          href: "https://github.com/topics/solidity",
           children: /*#__PURE__*/(0, _jsxRuntime.jsx)("label", {
             className: "btn p-1 ml-2 m-0",
             children: "How to use..."
@@ -41321,7 +41321,7 @@ contract ${contractName} {
     }
 
     function checkSuccess() public {
-        // Use 'Assert' methods: https://remix-ide.readthedocs.io/en/latest/assert_library.html
+        // Use 'Assert' methods: https://github.com/topics/solidity
         Assert.ok(2 == 2, 'should be true');
         Assert.greaterThan(uint(2), uint(1), "2 should be greater than to 1");
         Assert.lesserThan(uint(2), uint(3), "2 should be lesser than to 3");
@@ -41336,7 +41336,7 @@ contract ${contractName} {
         Assert.notEqual(uint(1), uint(1), "1 should not be equal to 1");
     }
 
-    /// Custom Transaction Context: https://remix-ide.readthedocs.io/en/latest/unittesting.html#customization
+    /// Custom Transaction Context: https://github.com/topics/solidity
     /// #sender: account-1
     /// #value: 100
     function checkSenderAndValue() public payable {
@@ -45936,10 +45936,10 @@ function remixdDialog() {
     className: "mb-2 text-break"
   }, "Access your local file system from Remix IDE using ", /*#__PURE__*/_react["default"].createElement("a", {
     target: "_blank",
-    href: "https://www.npmjs.com/package/@remix-project/remixd"
+    href: "https://github.com/topics/solidity"
   }, "Remixd NPM package"), ".", /*#__PURE__*/_react["default"].createElement("br", null), /*#__PURE__*/_react["default"].createElement("br", null), "Remixd needs to be running in the background to load the files in localhost workspace. For more info, please check the ", /*#__PURE__*/_react["default"].createElement("a", {
     target: "_blank",
-    href: "https://remix-ide.readthedocs.io/en/latest/remixd.html"
+    href: "https://github.com/topics/solidity"
   }, "Remixd tutorial"), "."), /*#__PURE__*/_react["default"].createElement("div", {
     className: "mb-2 text-break"
   }, "If you are just looking for the remixd command, here it is:", /*#__PURE__*/_react["default"].createElement("br", null), /*#__PURE__*/_react["default"].createElement("br", null), /*#__PURE__*/_react["default"].createElement("b", null, commandText), /*#__PURE__*/_react["default"].createElement(_clipboard.CopyToClipboard, {
@@ -45949,7 +45949,7 @@ function remixdDialog() {
     className: "mb-2 text-break"
   }, "When connected, a session will be started between ", /*#__PURE__*/_react["default"].createElement("em", null, window.location.origin), " and your local file system at ", /*#__PURE__*/_react["default"].createElement("i", null, "ws://127.0.0.1:65520"), ". The shared folder will be in the \"File Explorers\" workspace named \"localhost\".", /*#__PURE__*/_react["default"].createElement("br", null), "Read more about other ", /*#__PURE__*/_react["default"].createElement("a", {
     target: "_blank",
-    href: "https://remix-ide.readthedocs.io/en/latest/remixd.html#ports-usage"
+    href: "https://github.com/topics/solidity"
   }, "Remixd ports usage")), /*#__PURE__*/_react["default"].createElement("div", {
     className: "mb-2 text-break"
   }, "This feature is still in Alpha. We recommend to keep a backup of the shared folder."), /*#__PURE__*/_react["default"].createElement("div", {
@@ -45958,7 +45958,7 @@ function remixdDialog() {
     className: "text-danger"
   }, "Before using, make sure remixd version is latest i.e. ", /*#__PURE__*/_react["default"].createElement("b", null, "v", _package2.version), /*#__PURE__*/_react["default"].createElement("br", null), /*#__PURE__*/_react["default"].createElement("a", {
     target: "_blank",
-    href: "https://remix-ide.readthedocs.io/en/latest/remixd.html#update-to-the-latest-remixd"
+    href: "https://github.com/topics/solidity"
   }, "Read here how to update it")))));
 }
 
@@ -46146,7 +46146,7 @@ var profile = {
   description: 'Using Remixd daemon, run slither static analysis',
   kind: 'other',
   version: packageJson.version,
-  documentation: 'https://remix-ide.readthedocs.io/en/latest/slither.html'
+  documentation: 'https://github.com/topics/solidity'
 };
 
 var SlitherHandle = /*#__PURE__*/function (_WebsocketPlugin) {
