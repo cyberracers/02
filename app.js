@@ -19799,7 +19799,7 @@ class RemixURLResolver {
       url = url.replace(/^ipfs:\/\/?/, 'ipfs/'); // eslint-disable-next-line no-useless-catch
 
       try {
-        const req = 'https://ipfs.remixproject.org/' + url; // If you don't find greeter.sol on ipfs gateway use local
+        const req = 'https://ipfs.org/' + url; // If you don't find greeter.sol on ipfs gateway use local
         // const req = 'http://localhost:8080/' + url
 
         const response = yield axios_1.default.get(req);
@@ -21338,7 +21338,7 @@ var Blockchain = /*#__PURE__*/function (_Plugin) {
   }, {
     key: "web3",
     value: function web3() {
-      // @todo(https://github.com/ethereum/remix-project/issues/431)
+      // @todo(https://github.com/ethereum/issues/431)
       var isVM = this.getProvider() === 'vm';
 
       if (isVM) {
@@ -26653,7 +26653,7 @@ var DGitProvider = /*#__PURE__*/function (_Plugin) {
       host: 'ipfs.remixproject.org',
       port: 443,
       protocol: 'https',
-      ipfsurl: 'https://ipfs.remixproject.org/ipfs/'
+      ipfsurl: 'https://ipfs.org/ipfs/'
     };
     _this.globalIPFSConfig = {
       host: 'ipfs.io',
@@ -26665,7 +26665,7 @@ var DGitProvider = /*#__PURE__*/function (_Plugin) {
       host: 'ipfs.remixproject.org',
       port: 443,
       protocol: 'https',
-      ipfsurl: 'https://ipfs.remixproject.org/ipfs/'
+      ipfsurl: 'https://ipfs.org/ipfs/'
     };
     _this.ipfsSources = [_this.remixIPFS, _this.globalIPFSConfig, _this.ipfsconfig];
     return _this;
@@ -26713,7 +26713,7 @@ var DGitProvider = /*#__PURE__*/function (_Plugin) {
             switch (_context2.prev = _context2.next) {
               case 0:
                 return _context2.abrupt("return", {
-                  corsProxy: 'https://corsproxy.remixproject.org/',
+                  corsProxy: 'https://corsproxy.org/',
                   http: _web["default"],
                   onAuth: function onAuth(url) {
                     var auth = {
