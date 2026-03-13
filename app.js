@@ -7361,13 +7361,13 @@ function Web3ProviderDialog(props) {
 
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     className: ""
-  }, "Note: To use Geth & https://remix.ethereum.org, configure it to allow requests from Remix:(see ", /*#__PURE__*/_react.default.createElement("a", {
+  }, "Note: To use Geth & https://ethereum.org, configure it to allow requests from Remix:(see ", /*#__PURE__*/_react.default.createElement("a", {
     href: "https://geth.ethereum.org/docs/rpc/server",
     target: "_blank",
     rel: "noreferrer"
   }, "Geth Docs on rpc server"), ")", /*#__PURE__*/_react.default.createElement("div", {
     className: "border p-1"
-  }, "geth --http --http.corsdomain https://remix.ethereum.org"), /*#__PURE__*/_react.default.createElement("br", null), "To run Remix & a local Geth test node, use this command: (see ", /*#__PURE__*/_react.default.createElement("a", {
+  }, "geth --http --http.corsdomain https://ethereum.org"), /*#__PURE__*/_react.default.createElement("br", null), "To run Remix & a local Geth test node, use this command: (see ", /*#__PURE__*/_react.default.createElement("a", {
     href: "https://geth.ethereum.org/getting-started/dev-mode",
     target: "_blank",
     rel: "noreferrer"
