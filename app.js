@@ -33537,14 +33537,14 @@ const RemixUiSettings = props => {
             children: [/*#__PURE__*/(0, _jsxRuntime.jsx)("span", {
               children: _constants.matomoAnalytics
             }), /*#__PURE__*/(0, _jsxRuntime.jsx)("a", {
-              href: "https://medium.com/p/66ef69e14931/",
+              href: "",
               target: "_blank",
               children: " Analytics in Remix IDE"
             }), " ", /*#__PURE__*/(0, _jsxRuntime.jsx)("span", {
               children: "&"
             }), " ", /*#__PURE__*/(0, _jsxRuntime.jsx)("a", {
               target: "_blank",
-              href: "https://matomo.org/free-software",
+              href: "",
               children: "Matomo"
             })]
           })]
