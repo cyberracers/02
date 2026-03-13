@@ -14855,7 +14855,7 @@ var WalkthroughService = /*#__PURE__*/function (_Plugin) {
     _this = _super.call(this, profile);
     appManager.event.on('activate', function (plugin) {
       if (plugin.name === 'udapp' && !showMatamo) {
-        _this.start();
+        // _this.start();
       }
     });
     return _this;
